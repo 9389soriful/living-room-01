@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Living Lab 001</title>
+    <!-- this is for font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- for tailwind css -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="font-sans">
+    <!-- main visual part here -->
+    <div class="main_visual">
+        <header class=" bg-[#fff9f4]">
+            <div
+                class="header px-6 lg:mx-[140px] flex justify-between items-center py-10 border border-[#179800] lg:border-none">
+                <div class="icon animate-pulse flex items-center gap-2 text-[26px]">
+                    <img src="img/logo-header.png" alt="logo">
+                    <p class="hidden lg:inline-block ">
+                        Browse <span class="text-[#ffdc26]">4</span>Pets
+                    </p>
+                </div>
+                <div class="menu hidden lg:block">
+                    <ul class="flex text-[20px] gap-6">
+                        <li><a href="#">Product</a></li>
+                        <li><a href="#">Service</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+
+                <div class="userLog text-[24px] hidden lg:flex justify-center items-center gap-6">
+                    <span class="cursor-pointer"><i class="fa-solid fa-magnifying-glass"></i></span>
+                    <span class="cursor-pointer"><i class="fa-solid fa-cart-shopping"></i></span>
+                    <button
+                        class="border border-[#ffdc26] hover:text-white hover:bg-[#179800] px-[30px] py-[10px] rounded-[8px]">Login</button>
+                    <button
+                        class="bg-[#ffdc26] hover:text-black hover:bg-[#efebe4] px-[30px] py-[10px] rounded-[8px] text-white">Register</button>
+                </div>
+                <div class="cursor-pointer lg:hidden text-2xl">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+
+            </div>
+        </header>
+        <!-- main part here  -->
+        <main>
+            <div class=" lg:mx-[140px] my-[100px]">
+
+                <div class="flex flex-col lg:w-1/2 gap-4">
+
+                    <p class="text-[54px] font-bold">Pamper Your Pet, Because They Deserve the Bes</p>
+                    <p class="text-[20px] font-[400px]">
+                        Discover a world of treats, toys, and essentials handpicked for your furry friends. Shop now and
+                        make tails wag with joy!
+                    </p>
+                    <div>
+
+                        <button
+                            class="border  bg-[#ffdc26] hover:text-black hover:bg-[#efebe4] px-[30px] py-[10px] rounded-[8px]">Find
+                            a pet
+                            <button />
+                    </div>
+
+                </div>
+                <div class="h-[400px]">
+                    <img src="img/cat-big.png" alt="">
+                </div>
+            </div>
+        </main>
+
+    </div>
+</body>
+
+</html>
